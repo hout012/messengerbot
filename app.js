@@ -31,7 +31,7 @@ const
 
 // homepage
 app.get('/', (req,res) => {
-  res.send('hello word');
+  res.send("<h1>hello word</h1>");
 })
 
 // Sets server port and logs message on success
